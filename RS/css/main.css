@@ -1,0 +1,94 @@
+.background{
+  background-image: url(../fonari.jpeg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.text1{
+  font-size: 100px;
+  color: white;
+  margin-top: 310px;
+  margin-left: 350px;
+  letter-spacing: .2rem
+}
+
+.background2{
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  background-color: silver;
+}
+
+.text2{
+  font-size: 30px;
+  color: black;
+  letter-spacing: .1rem;
+  margin-top: -340px;
+  margin-left: 60px;
+}
+
+.line{
+  height: 2px;
+  width: 80px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.text3{
+  font-size: 20px;
+  width: 450px;
+  color: black;
+  letter-spacing: .1rem;
+  margin-top: 50px;
+}
+
+.text4{
+  font-size: 20px;
+  width: 450px;
+  color: black;
+  letter-spacing: .1rem;
+  margin-top: 50px;
+}
+
+.CON{
+  font-size: 30px;
+  color: black;
+  letter-spacing: .1rem;
+  margin-top: 80px;
+  margin-left: 700px;
+}
+
+.BIR{
+  font-size: 20px;
+  width: 450px;
+  color: black;
+  letter-spacing: .2rem;
+  margin-top: 50px;
+}
+
+.PH{
+  font-size: 20px;
+  width: 450px;
+  color: black;
+  letter-spacing: .2rem;
+  margin-top: 50px;
+}
+
+.EM{
+  font-size: 20px;
+  width: 450px;
+  color: black;
+  letter-spacing: .2rem;
+  margin-top: 50px;
+}
+
+.CI{
+  font-size: 20px;
+  width: 450px;
+  color: black;
+  letter-spacing: .2rem;
+  margin-top: 50px;
+}
