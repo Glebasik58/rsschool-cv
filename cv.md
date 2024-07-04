@@ -1,10 +1,9 @@
-## Иван Иванов
+## Глеб Черепнин
 
 ### Контакты для связи
 
-* Email: ivan.ivanov@example.com
-* Телефон: +7 (999) 999-99-99
-* Telegram: @ivan_ivanov
+* Email: gglebasemil@gmail.com
+* Телефон: +7 (702)4438722
 * GitHub: [ссылка на ваш профиль](https://github.com/your-username)
 
 ### Краткая информация о себе
