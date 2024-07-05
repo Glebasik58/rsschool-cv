@@ -1,136 +1,150 @@
-.background{
-  background-color: white;
-  height: 400px;
-  width: 100%;
-  background-size: cover;
-  overflow: hidden;
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.text1{
-  font-size: 100px;
-  color: white;
-  margin-top: 310px;
-  margin-left: 350px;
-  letter-spacing: .2rem
+img{
+  height: 60vh;
+  width: auto;
+  position: absolute;
+  left: 10%;
+  border-radius: 50%;
 }
 
-.background2{
-  height: 550px;
-  width: 100%;
-  background-size: cover;
-  overflow: hidden;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Два столбца равной ширины */
+  grid-template-rows: 1fr 1fr;   /* Две строки равной высоты */
+  height: 150vh; /* Высота контейнера */
+}
+.box {
   background-color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  position: relative;
+
 }
 
-.text2{
-  font-size: 30px;
-  color: #E48900;
-  letter-spacing: .1rem;
-  margin-top: -340px;
-  margin-left: 60px;
+h1{
+  font-size: 10vh;
+  text-align: right;
+  position: absolute;
+  right: 7vw;
+  width: 30vw;
+  top: 1vh;
+  letter-spacing: .1%;
 }
 
-.line{
-  height: 2px;
-  width: 80px;
-  background-color: black;
-  margin-top: 20px;
+h2{
+  font-size: 5vh;
+  width: auto;
+  height: 5vh;
+  letter-spacing: .2%;
+  position: absolute;
+  top: 27vh;
+  right: 7vw;
 }
 
-.text3{
-  font-size: 20px;
-  width: 450px;
-  color: black;
-  letter-spacing: .1rem;
-  margin-top: 50px;
+#description{
+  font-size: 3vh;
+  width: 40vw;
+  height: auto;
+  letter-spacing: .1%;
+  position: absolute;
+  top: 38vh;
+  right: 7vw;
+  text-align: right;
 }
 
-.text4{
-  font-size: 20px;
-  width: 450px;
-  color: black;
-  letter-spacing: .1rem;
-  margin-top: 50px;
+.header-container {
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px; 
+  font-size: 2.5vh;
 }
 
-.CON{
-  font-size: 30px;
-  color: #E48900;
-  letter-spacing: .1rem;
-  margin-top: 80px;
-  margin-left: 700px;
+.header-left, .header-right {
+  margin: 0; 
 }
 
-.BIR{
-  font-size: 20px;
-  width: 450px;
-  color: black;
-  letter-spacing: .2rem;
-  margin-top: 50px;
+#education{
+  font-size: 7vh;
+  width: 40vw;
+  height: auto;
+  position:absolute;
+  top: 2vh;
+  left: 5vw;
+  letter-spacing: .2%;
 }
 
-.PH{
-  font-size: 20px;
-  width: 450px;
-  color: black;
-  letter-spacing: .2rem;
-  margin-top: 50px;
+#Technology{
+  font-size: 4vh;
+  width: 40vw;
+  height: auto;
+  position:absolute;
+  top: 15vh;
+  left: 5vw;
+  letter-spacing: .2%;
 }
 
-.EM{
-  font-size: 20px;
-  width: 450px;
-  color: black;
-  letter-spacing: .2rem;
-  margin-top: 50px;
+#skills{
+  font-size: 7vh;
+  width: 40vw;
+  height: auto;
+  position:absolute;
+  top: 20vh;
+  left: 5vw;
+  letter-spacing: .2%;
 }
 
-.CI{
-  font-size: 20px;
-  width: 450px;
-  color: black;
-  letter-spacing: .2rem;
-  margin-top: 50px;
+ul{
+  width: 40vw;
+  height: auto;
+  position:absolute;
+  top: 35vh;
+  font-size: 4vh;
 }
 
-.foto{
-  background-image: url(../Ellipse6.png);
-  width: 200px;
-  height: 200px;
-  margin-top: 10px;
-  margin-left: 500px;
+#experience{
+  font-size: 7vh;
+  width: 40vw;
+  height: auto;
+  position:absolute;
+  top: 2vh;
+  left: 5vw;
+  letter-spacing: .2%;
 }
 
-.text0{
-  font-size: 100px;
-  color: #E48900;
-  height: 400px;
-  margin-top: 100px;
-  margin-left: 350px;
+#no{
+  width: 40vw;
+  height: auto;
+  position:absolute;
+  top: 15vh;
+  font-size: 4vh;
+  left: 5vw;
 }
 
-b{
-  color: #E48900;
+#RS{
+  height: 15vh;
+  width: auto;
+  position: absolute;
+  left: 10%;
+  border-radius: 50%;
+  top: 55vh;
 }
 
-.footer{
-  background-color: black;
-  height: 60px;
-  width: 100%;
-  background-size: cover;
-  overflow: hidden;
+#information{
+  font-size: 7vh;
+  width: 40vw;
+  height: auto;
+  position:absolute;
+  top: 20vh;
+  left: 5vw;
+  letter-spacing: .2%;
 }
 
-.logo{
-  background-image: url(../Group1.png);
-  height: 50px;
-  width: 50px;
-  margin-left: 50px;
-}
 
-.ss{
-  font-size: 20px;
-  color: blue;
-  margin-left: 60px;
-  margin-top: 17px;
-}
+
