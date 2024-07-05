@@ -100,12 +100,13 @@ h2{
   letter-spacing: .2%;
 }
 
-ul{
+ol{
   width: 40vw;
   height: auto;
   position:absolute;
   top: 35vh;
   font-size: 4vh;
+  right: 2vh;
 }
 
 #experience{
@@ -146,5 +147,12 @@ ul{
   letter-spacing: .2%;
 }
 
-
+ul{
+  width: 40vw;
+  height: auto;
+  position:absolute;
+  top: 35vh;
+  font-size: 4vh;
+  right: 4vh;
+}
 
